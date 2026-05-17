@@ -2971,13 +2971,13 @@
 	(footprint "Package_SO:VSSOP-8_2.3x2mm_P0.5mm"
 		(layer "B.Cu")
 		(uuid "0fc706fd-63f5-4ab1-8c77-62f55456a356")
-		(at 91.44 60.695 90)
+		(at 91 63.5 90)
 		(descr "VSSOP, 8 Pin (https://www.jedec.org/standards-documents/docs/mo-187-f)")
 		(tags "VSSOP SO JEDEC-MO-187-CA Texas_DCU0008A")
 		(property "Reference" "U3"
 			(at 0 1.95 90)
 			(layer "B.SilkS")
-			(uuid "f35e8ce2-d813-422b-a637-3002d3b8466a")
+			(uuid "44145c59-bbbd-429c-8807-a80b182dc1c9")
 			(effects
 				(font
 					(size 1 1)
@@ -2989,7 +2989,7 @@
 		(property "Value" "Opamp_Dual"
 			(at 0 -1.95 90)
 			(layer "B.Fab")
-			(uuid "d5517261-f506-46c5-8dcc-5dfc202e2d29")
+			(uuid "8a555eda-a800-44bf-bfe8-35b33717fa22")
 			(effects
 				(font
 					(size 1 1)
@@ -3002,7 +3002,7 @@
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "554a5791-a578-436f-91a2-0a66739bfd3b")
+			(uuid "b9b20cba-47a7-44a2-8641-9e8490ae2a01")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3014,7 +3014,7 @@
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "f6267658-4074-4a9e-aca3-126bf6b2fef2")
+			(uuid "d9dc59e3-3216-4031-a1e5-9a954ac3800f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3398,12 +3398,36 @@
 		(uuid "123fe805-9dcb-4358-a9cb-f51bf059e1b6")
 	)
 	(segment
+		(start 95 47.5)
+		(end 94.5 48)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "GND")
+		(uuid "18123077-70e0-40d7-9121-47b33c3b697c")
+	)
+	(segment
 		(start 96.48 52)
 		(end 96.48 53.9425)
 		(width 0.2)
 		(layer "F.Cu")
 		(net "GND")
 		(uuid "466a2708-a2ab-42f5-9438-54a955c5a028")
+	)
+	(segment
+		(start 95 47.5)
+		(end 94.5 47)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "GND")
+		(uuid "4ae856b9-1313-464f-833f-c2cf422046b8")
+	)
+	(segment
+		(start 95.5 47.5)
+		(end 96 48)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "GND")
+		(uuid "56036753-4629-43ee-a1bb-575ffbe8648f")
 	)
 	(segment
 		(start 97.4 54.8625)
@@ -3422,12 +3446,68 @@
 		(uuid "b325bdb1-f5f3-4520-a430-81b0f012bbe9")
 	)
 	(segment
+		(start 95.175 47.5)
+		(end 95 47.5)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "GND")
+		(uuid "b377d9b8-e7ae-41cb-bc18-c2acc3f13611")
+	)
+	(segment
+		(start 95.5 47.5)
+		(end 96 47)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "GND")
+		(uuid "c0b8d104-2216-4f82-a951-f6de840720af")
+	)
+	(segment
 		(start 97.48 55.48)
 		(end 97.48 60.5)
 		(width 0.2)
 		(layer "F.Cu")
 		(net "GND")
 		(uuid "db386428-d2b8-49c3-b876-2b20dda373a7")
+	)
+	(segment
+		(start 95.175 47.5)
+		(end 95.5 47.5)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "GND")
+		(uuid "e4cd438c-da64-4b68-bb83-26abab99dc6e")
+	)
+	(via
+		(at 96 47)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(net "GND")
+		(uuid "00e534da-a7ab-4990-9c30-e49635e7cd00")
+	)
+	(via
+		(at 94.5 47)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(net "GND")
+		(uuid "0768dbec-3168-45fc-b13e-1e11d87562ea")
+	)
+	(via
+		(at 94.5 48)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(net "GND")
+		(uuid "960c5ff1-2f34-498d-9cf9-6d51526754dd")
+	)
+	(via
+		(at 96 48)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(net "GND")
+		(uuid "d423fd0a-c8d9-4f55-8ae3-deadbe43103f")
 	)
 	(segment
 		(start 95.575 54.25)
@@ -3476,6 +3556,22 @@
 		(layers "F.Cu" "B.Cu")
 		(net "VCC")
 		(uuid "b75636e0-81df-4e1d-949b-1c15408cc950")
+	)
+	(segment
+		(start 91.75 62.1)
+		(end 91.75 57.25)
+		(width 0.2)
+		(layer "B.Cu")
+		(net "VCC")
+		(uuid "7dcfd662-898a-41c3-8f45-8fdef5f2502d")
+	)
+	(segment
+		(start 91.75 57.25)
+		(end 95 54)
+		(width 0.2)
+		(layer "B.Cu")
+		(net "VCC")
+		(uuid "8489df42-cdeb-4941-ab70-8b3bef45eac6")
 	)
 	(segment
 		(start 96.52 60.5)
